@@ -56,7 +56,7 @@ export default function Footer() {
             <Link to="/">Home</Link>
             <a href="/properties">Properties</a>
             <a href="/services">Services</a>
-            <Link to="/blogs">Journal</Link>
+            {/* <Link to="/blogs">Journal</Link> */}
           </div>
 
           <div className={styles.infoCol}>

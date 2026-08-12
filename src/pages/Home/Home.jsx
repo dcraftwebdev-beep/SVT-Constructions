@@ -8,7 +8,7 @@ import Projects from './sections/Projects/Projects.jsx';
 import Stats from './sections/Stats/Stats.jsx';
 import Process from './sections/Process/Process.jsx';
 import Testimonials from './sections/Testimonials/Testimonials.jsx';
-import BlogPreview from './sections/BlogPreview/BlogPreview.jsx';
+// import BlogPreview from './sections/BlogPreview/BlogPreview.jsx';
 import CTA from './sections/CTA/CTA.jsx';
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
       <Projects />
       <Process />
       <Testimonials />
-      <BlogPreview />
+      {/* <BlogPreview /> */}
       <CTA />
     </motion.main>
   );

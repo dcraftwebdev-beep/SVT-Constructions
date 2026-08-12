@@ -6,8 +6,8 @@ import Footer from './components/Footer/Footer.jsx';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute.jsx';
 
 import Home from './pages/Home/Home.jsx';
-import Blog from './pages/Blog/Blog.jsx';
-import BlogPost from './pages/BlogPost/BlogPost.jsx';
+// import Blog from './pages/Blog/Blog.jsx';
+// import BlogPost from './pages/BlogPost/BlogPost.jsx';
 import Properties from './pages/Properties/Properties.jsx';
 
 import AdminLayout from './pages/Admin/AdminLayout/AdminLayout.jsx';
@@ -35,8 +35,8 @@ export default function App() {
             <Route path="/services" element={<ServicePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/blogs" element={<Blog />} />
-            <Route path="/blogs/:slug" element={<BlogPost />} />
+            {/* <Route path="/blogs" element={<Blog />} /> */}
+            {/* <Route path="/blogs/:slug" element={<BlogPost />} /> */}
 
             {/* Admin routes */}
             <Route path="/admin/login" element={<Login />} />

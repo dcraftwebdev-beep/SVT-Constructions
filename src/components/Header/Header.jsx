@@ -24,7 +24,7 @@ const NAV = [
   { to: '/properties', label: 'Properties' },
   { to: '/services',   label: 'Services',   children: SERVICE_LINKS },
   { to: '/about',      label: 'About' },
-  { to: '/blogs',      label: 'Blogs' },
+  // { to: '/blogs',      label: 'Blogs' },
   { to: '/contact',    label: 'Contact' },
 ];
 
