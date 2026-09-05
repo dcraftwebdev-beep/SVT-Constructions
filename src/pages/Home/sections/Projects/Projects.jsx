@@ -127,7 +127,7 @@ export default function Projects() {
       <div className="container">
         <DimensionRule label="03 — Projects" dark />
         <Reveal>
-          <h2 className={styles.title}>Built by Thiral</h2>
+          <h2 className={styles.title}>Built by SVT</h2>
         </Reveal>
       </div>
 
